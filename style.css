@@ -1,0 +1,231 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 80px;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+main h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+}
+footer h1 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url("https://wallpapercave.com/wp/wp2302349.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.let {
+  height: 600px;
+  background-image: url("");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.yesh {
+  height: 600px;
+  background-image: url("https://media.istockphoto.com/photos/confused-business-man-short-term-memory-loss-picture-id598700800?k=6&m=598700800&s=612x612&w=0&h=uOeWk5nzi4rBSh8aLhNJg2G0FDXwJoweQjhr1Ev9SSc=");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.supporting img {
+  height: 30px;
+}
+
+.supporting  {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
+.mainbody {
+  font-family: 'Roboto', sans-serif;
+  font-size-adjust: 25px;
+  color: #fff;
+}
+.huge h1 {
+  font-size: 20px;
+}
+.space div {
+  height: auto;
+}
+.yellow h2 {
+  font-family: 'Roboto', sans-serif;
+}
+.sizing {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.pics {
+  height: 350px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.thesize {
+  font-size: 18px
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  color: #fff;
+}
+.points {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.alright {
+  text-align: left;
+}
+
+.link {
+  color: white;
+}
+
+.page {
+  background-color: #800000;
+}
+
+.final {
+  background-color: black;
+}
